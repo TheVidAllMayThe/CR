@@ -24,6 +24,7 @@ architecture MesmoTOP of TopThatLevel is
     signal s_ALUSelB :  std_logic_vector(1 downto 0);
     signal s_RegWrite :  std_logic;
     signal s_ALUop :  std_logic_vector(1 downto 0); 
+    signal s_memEnable : std_logic;
 
     component ControlUnit
     port(Clock : in std_logic;
@@ -76,6 +77,7 @@ architecture MesmoTOP of TopThatLevel is
         generic(ADDR_BUS_SIZE : positive := s_ADDR_BUS_SIZE;
                 DATA_BUS_SIZE : positive := S_DATA_BUS_SIZE);
         port(   clk : in std_logic;
+                enable : in std_logic;
                 readEn : in std_logic;
                 writeEn : in std_logic;
                 address : in std_logic_vector(ADDR_BUS_SIZE-1 downto 0);
@@ -253,7 +255,10 @@ begin
                           pc          => s_pc);       
     
     
-    Memory: RAM port map(clk       => clock,       
+    s_memEnable <= '1' when (s_address(31 downto 8) = X"000000") else '0';
+    
+    Memory: RAM port map(clk       => clock,
+                         enable    => s_memEnable,     
                          readEn    => s_MemRead,    
                          writeEn   => s_MemWrite,   
                          address   => s_address,
