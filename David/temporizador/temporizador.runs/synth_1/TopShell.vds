@@ -1,0 +1,387 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:54:30 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Mar 29 15:40:45 2018
+# Process ID: 13102
+# Current directory: /home/xarez/Documents/CR/temporizador/temporizador.runs/synth_1
+# Command line: vivado -log TopShell.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TopShell.tcl
+# Log file: /home/xarez/Documents/CR/temporizador/temporizador.runs/synth_1/TopShell.vds
+# Journal file: /home/xarez/Documents/CR/temporizador/temporizador.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source TopShell.tcl -notrace
+Command: synth_design -top TopShell -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 13161 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1267.395 ; gain = 68.988 ; free physical = 1273 ; free virtual = 7707
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'TopShell' [/home/xarez/Documents/CR/temporizador/temporizador.srcs/sources_1/new/TopShell.vhd:13]
+INFO: [Synth 8-638] synthesizing module 'PulseGenerator' [/home/xarez/Documents/CR/temporizador/temporizador.srcs/sources_1/imports/new/PulseGenerator.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'PulseGenerator' (1#1) [/home/xarez/Documents/CR/temporizador/temporizador.srcs/sources_1/imports/new/PulseGenerator.vhd:12]
+INFO: [Synth 8-638] synthesizing module 'ButtonModule' [/home/xarez/Documents/CR/temporizador/temporizador.srcs/sources_1/new/ButtonModule.vhd:12]
+WARNING: [Synth 8-614] signal 'sysClk' is read in the process but is not in the sensitivity list [/home/xarez/Documents/CR/temporizador/temporizador.srcs/sources_1/new/ButtonModule.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'ButtonModule' (2#1) [/home/xarez/Documents/CR/temporizador/temporizador.srcs/sources_1/new/ButtonModule.vhd:12]
+INFO: [Synth 8-638] synthesizing module 'ResetModule' [/home/xarez/Documents/CR/temporizador/temporizador.srcs/sources_1/new/ResetModule.vhd:42]
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ResetModule' (3#1) [/home/xarez/Documents/CR/temporizador/temporizador.srcs/sources_1/new/ResetModule.vhd:42]
+INFO: [Synth 8-638] synthesizing module 'ControlUnit' [/home/xarez/Documents/CR/temporizador/temporizador.srcs/sources_1/new/ControlUnit.vhd:14]
+WARNING: [Synth 8-614] signal 'clk' is read in the process but is not in the sensitivity list [/home/xarez/Documents/CR/temporizador/temporizador.srcs/sources_1/new/ControlUnit.vhd:34]
+INFO: [Synth 8-256] done synthesizing module 'ControlUnit' (4#1) [/home/xarez/Documents/CR/temporizador/temporizador.srcs/sources_1/new/ControlUnit.vhd:14]
+INFO: [Synth 8-638] synthesizing module 'Counter' [/home/xarez/Documents/CR/temporizador/temporizador.srcs/sources_1/imports/general_srcs/Counter.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'Counter' (5#1) [/home/xarez/Documents/CR/temporizador/temporizador.srcs/sources_1/imports/general_srcs/Counter.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'TopShell' (6#1) [/home/xarez/Documents/CR/temporizador/temporizador.srcs/sources_1/new/TopShell.vhd:13]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1309.926 ; gain = 111.520 ; free physical = 1290 ; free virtual = 7724
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1309.926 ; gain = 111.520 ; free physical = 1290 ; free virtual = 7724
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/xarez/Documents/CR/temporizador/temporizador.srcs/constrs_1/imports/tutorial/Nexys4_Master.xdc]
+Finished Parsing XDC File [/home/xarez/Documents/CR/temporizador/temporizador.srcs/constrs_1/imports/tutorial/Nexys4_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/xarez/Documents/CR/temporizador/temporizador.srcs/constrs_1/imports/tutorial/Nexys4_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/TopShell_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/TopShell_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1655.719 ; gain = 0.000 ; free physical = 960 ; free virtual = 7405
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:27 ; elapsed = 00:00:44 . Memory (MB): peak = 1655.719 ; gain = 457.312 ; free physical = 986 ; free virtual = 7470
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:27 ; elapsed = 00:00:44 . Memory (MB): peak = 1655.719 ; gain = 457.312 ; free physical = 986 ; free virtual = 7470
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:44 . Memory (MB): peak = 1655.719 ; gain = 457.312 ; free physical = 988 ; free virtual = 7472
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "s_pulseOut" won't be mapped to RAM because address size (27) is larger than maximum supported(25)
+WARNING: [Synth 8-6014] Unused sequential element s_counter_reg was removed.  [/home/xarez/Documents/CR/temporizador/temporizador.srcs/sources_1/imports/new/PulseGenerator.vhd:21]
+WARNING: [Synth 8-6014] Unused sequential element s_count_reg was removed.  [/home/xarez/Documents/CR/temporizador/temporizador.srcs/sources_1/imports/general_srcs/Counter.vhd:22]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:27 ; elapsed = 00:00:44 . Memory (MB): peak = 1655.719 ; gain = 457.312 ; free physical = 978 ; free virtual = 7462
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 4     
++---Registers : 
+	                4 Bit    Registers := 9     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   3 Input      4 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 6     
+	   7 Input      4 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 3     
+	  12 Input      3 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
+	  12 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module PulseGenerator 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module ButtonModule 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module ResetModule 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
+Module ControlUnit 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 4     
++---Muxes : 
+	   3 Input      4 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 2     
+	   7 Input      4 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 3     
+	  12 Input      3 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	  12 Input      1 Bit        Muxes := 1     
+Module Counter 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element startstop_module/s_output_reg was removed.  [/home/xarez/Documents/CR/temporizador/temporizador.srcs/sources_1/new/ButtonModule.vhd:22]
+INFO: [Synth 8-5545] ROM "pulse_generator/s_pulseOut" won't be mapped to RAM because address size (27) is larger than maximum supported(25)
+WARNING: [Synth 8-6014] Unused sequential element pulse_generator/s_counter_reg was removed.  [/home/xarez/Documents/CR/temporizador/temporizador.srcs/sources_1/imports/new/PulseGenerator.vhd:21]
+WARNING: [Synth 8-6014] Unused sequential element counter0/s_count_reg was removed.  [/home/xarez/Documents/CR/temporizador/temporizador.srcs/sources_1/imports/general_srcs/Counter.vhd:22]
+WARNING: [Synth 8-6014] Unused sequential element counter1/s_count_reg was removed.  [/home/xarez/Documents/CR/temporizador/temporizador.srcs/sources_1/imports/general_srcs/Counter.vhd:22]
+WARNING: [Synth 8-6014] Unused sequential element counter2/s_count_reg was removed.  [/home/xarez/Documents/CR/temporizador/temporizador.srcs/sources_1/imports/general_srcs/Counter.vhd:22]
+WARNING: [Synth 8-6014] Unused sequential element counter3/s_count_reg was removed.  [/home/xarez/Documents/CR/temporizador/temporizador.srcs/sources_1/imports/general_srcs/Counter.vhd:22]
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\counter0/s_terminalCount_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\counter1/s_terminalCount_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\counter3/s_terminalCount_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\counter2/s_terminalCount_reg )
+INFO: [Synth 8-3886] merging instance 'control_unit/s_enable_reg[1]' (FDE) to 'control_unit/s_enable_reg[3]'
+INFO: [Synth 8-3886] merging instance 'control_unit/s_enable_reg[2]' (FDE) to 'control_unit/s_enable_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\control_unit/s_enable_reg[3] )
+INFO: [Synth 8-3886] merging instance 'control_unit/enable_reg[1]' (FDR) to 'control_unit/enable_reg[3]'
+INFO: [Synth 8-3886] merging instance 'control_unit/enable_reg[2]' (FDR) to 'control_unit/enable_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\counter1/s_count_inferred /\counter1/s_count_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\counter1/s_count_inferred /\counter1/s_count_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\counter1/s_count_inferred /\counter1/s_count_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\counter1/s_count_inferred /\counter1/s_count_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\counter2/s_count_inferred /\counter2/s_count_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\counter2/s_count_inferred /\counter2/s_count_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\counter2/s_count_inferred /\counter2/s_count_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\counter2/s_count_inferred /\counter2/s_count_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\counter3/s_count_inferred /\counter3/s_count_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\counter3/s_count_inferred /\counter3/s_count_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\counter3/s_count_inferred /\counter3/s_count_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\counter3/s_count_inferred /\counter3/s_count_reg[3] )
+WARNING: [Synth 8-3332] Sequential element (startstop_module/flag_reg) is unused and will be removed from module TopShell.
+WARNING: [Synth 8-3332] Sequential element (counter0/s_terminalCount_reg) is unused and will be removed from module TopShell.
+WARNING: [Synth 8-3332] Sequential element (counter1/s_terminalCount_reg) is unused and will be removed from module TopShell.
+WARNING: [Synth 8-3332] Sequential element (counter2/s_terminalCount_reg) is unused and will be removed from module TopShell.
+WARNING: [Synth 8-3332] Sequential element (counter3/s_terminalCount_reg) is unused and will be removed from module TopShell.
+WARNING: [Synth 8-3332] Sequential element (control_unit/s_enable_reg[3]) is unused and will be removed from module TopShell.
+WARNING: [Synth 8-3332] Sequential element (control_unit/enable_reg[3]) is unused and will be removed from module TopShell.
+WARNING: [Synth 8-3332] Sequential element (counter1/s_count_reg[3]) is unused and will be removed from module TopShell.
+WARNING: [Synth 8-3332] Sequential element (counter1/s_count_reg[2]) is unused and will be removed from module TopShell.
+WARNING: [Synth 8-3332] Sequential element (counter1/s_count_reg[1]) is unused and will be removed from module TopShell.
+WARNING: [Synth 8-3332] Sequential element (counter1/s_count_reg[0]) is unused and will be removed from module TopShell.
+WARNING: [Synth 8-3332] Sequential element (counter2/s_count_reg[3]) is unused and will be removed from module TopShell.
+WARNING: [Synth 8-3332] Sequential element (counter2/s_count_reg[2]) is unused and will be removed from module TopShell.
+WARNING: [Synth 8-3332] Sequential element (counter2/s_count_reg[1]) is unused and will be removed from module TopShell.
+WARNING: [Synth 8-3332] Sequential element (counter2/s_count_reg[0]) is unused and will be removed from module TopShell.
+WARNING: [Synth 8-3332] Sequential element (counter3/s_count_reg[3]) is unused and will be removed from module TopShell.
+WARNING: [Synth 8-3332] Sequential element (counter3/s_count_reg[2]) is unused and will be removed from module TopShell.
+WARNING: [Synth 8-3332] Sequential element (counter3/s_count_reg[1]) is unused and will be removed from module TopShell.
+WARNING: [Synth 8-3332] Sequential element (counter3/s_count_reg[0]) is unused and will be removed from module TopShell.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:45 . Memory (MB): peak = 1655.719 ; gain = 457.312 ; free physical = 968 ; free virtual = 7452
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:35 ; elapsed = 00:00:55 . Memory (MB): peak = 1655.719 ; gain = 457.312 ; free physical = 877 ; free virtual = 7351
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:55 . Memory (MB): peak = 1655.719 ; gain = 457.312 ; free physical = 877 ; free virtual = 7351
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (control_unit/s_nextState_reg[3]) is unused and will be removed from module TopShell.
+WARNING: [Synth 8-3332] Sequential element (control_unit/s_nextState_reg[2]) is unused and will be removed from module TopShell.
+WARNING: [Synth 8-3332] Sequential element (control_unit/s_nextState_reg[1]) is unused and will be removed from module TopShell.
+WARNING: [Synth 8-3332] Sequential element (control_unit/s_currentState_reg[3]) is unused and will be removed from module TopShell.
+WARNING: [Synth 8-3332] Sequential element (control_unit/s_currentState_reg[2]) is unused and will be removed from module TopShell.
+WARNING: [Synth 8-3332] Sequential element (control_unit/s_currentState_reg[1]) is unused and will be removed from module TopShell.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:35 ; elapsed = 00:00:55 . Memory (MB): peak = 1655.719 ; gain = 457.312 ; free physical = 870 ; free virtual = 7352
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:36 ; elapsed = 00:00:57 . Memory (MB): peak = 1655.719 ; gain = 457.312 ; free physical = 890 ; free virtual = 7338
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:36 ; elapsed = 00:00:57 . Memory (MB): peak = 1655.719 ; gain = 457.312 ; free physical = 890 ; free virtual = 7338
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:36 ; elapsed = 00:00:57 . Memory (MB): peak = 1655.719 ; gain = 457.312 ; free physical = 890 ; free virtual = 7338
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:36 ; elapsed = 00:00:57 . Memory (MB): peak = 1655.719 ; gain = 457.312 ; free physical = 890 ; free virtual = 7338
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:36 ; elapsed = 00:00:57 . Memory (MB): peak = 1655.719 ; gain = 457.312 ; free physical = 890 ; free virtual = 7338
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:36 ; elapsed = 00:00:57 . Memory (MB): peak = 1655.719 ; gain = 457.312 ; free physical = 890 ; free virtual = 7338
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     7|
+|3     |LUT1   |     3|
+|4     |LUT2   |     3|
+|5     |LUT3   |     1|
+|6     |LUT4   |     5|
+|7     |LUT5   |     4|
+|8     |LUT6   |     5|
+|9     |FDCE   |     4|
+|10    |FDPE   |     4|
+|11    |FDRE   |    32|
+|12    |IBUF   |     3|
+|13    |OBUF   |    16|
++------+-------+------+
+
+Report Instance Areas: 
++------+------------------+---------------+------+
+|      |Instance          |Module         |Cells |
++------+------------------+---------------+------+
+|1     |top               |               |    88|
+|2     |  control_unit    |ControlUnit    |     7|
+|3     |  counter0        |Counter        |     9|
+|4     |  pulse_generator |PulseGenerator |    48|
+|5     |  reset_module    |ResetModule    |     4|
++------+------------------+---------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:36 ; elapsed = 00:00:57 . Memory (MB): peak = 1655.719 ; gain = 457.312 ; free physical = 890 ; free virtual = 7338
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 33 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:28 ; elapsed = 00:00:33 . Memory (MB): peak = 1655.719 ; gain = 111.520 ; free physical = 928 ; free virtual = 7387
+Synthesis Optimization Complete : Time (s): cpu = 00:00:37 ; elapsed = 00:00:57 . Memory (MB): peak = 1655.727 ; gain = 457.312 ; free physical = 932 ; free virtual = 7392
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+47 Infos, 35 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:40 ; elapsed = 00:01:00 . Memory (MB): peak = 1655.727 ; gain = 470.703 ; free physical = 884 ; free virtual = 7358
+INFO: [Common 17-1381] The checkpoint '/home/xarez/Documents/CR/temporizador/temporizador.runs/synth_1/TopShell.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file TopShell_utilization_synth.rpt -pb TopShell_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.10 . Memory (MB): peak = 1679.730 ; gain = 0.000 ; free physical = 885 ; free virtual = 7359
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 29 15:41:57 2018...
