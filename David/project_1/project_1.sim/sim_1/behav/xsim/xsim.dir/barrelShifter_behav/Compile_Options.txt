@@ -1,0 +1,1 @@
+-wto "0e41e0e8c4cc463f9be36ed2728d48a0" --incr --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "secureip" --snapshot "barrelShifter_behav" "xil_defaultlib.barrelShifter" -log "elaborate.log" 

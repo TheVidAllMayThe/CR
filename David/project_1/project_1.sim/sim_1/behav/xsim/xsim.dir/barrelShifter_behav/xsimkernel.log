@@ -1,0 +1,7 @@
+Running: xsim.dir/barrelShifter_behav/xsimk -simmode gui -wdb barrelShifter_behav.wdb -simrunnum 0 -socket 52047
+Design successfully loaded
+Design Loading Memory Usage: 46976 KB (Peak: 46976 KB)
+Design Loading CPU Usage: 20 ms
+Simulation completed
+Simulation Memory Usage: 132812 KB (Peak: 194248 KB)
+Simulation CPU Usage: 60 ms

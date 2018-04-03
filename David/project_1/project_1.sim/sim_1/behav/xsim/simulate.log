@@ -1,0 +1,7 @@
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+FATAL_ERROR: Vivado Simulator kernel has discovered an exceptional condition from which it cannot recover. Process will terminate. For technical support on this issue, please open a WebCase with this project attached at http://www.xilinx.com/support.
+Time: 0 ps  Iteration: 0  Process: /barrelShifter/line__17
+  File: /home/david/project_1/project_1.srcs/sources_1/new/barrelShifter.vhd
+
+HDL Line: /home/david/project_1/project_1.srcs/sources_1/new/barrelShifter.vhd:22

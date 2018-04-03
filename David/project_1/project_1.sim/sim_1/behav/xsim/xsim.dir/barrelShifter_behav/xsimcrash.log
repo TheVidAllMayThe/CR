@@ -1,0 +1,14 @@
+Printing stacktrace...
+
+[0] /lib/x86_64-linux-gnu/libc.so.6(+0x172a9e) [0x7fe3aeb57a9e]
+[1] /home/david/Apps/Vivado/2017.4/lib/lnx64.o/librdi_simulator_kernel.so(iki_ieee_numeric_std_unsigned_shift_right+0x4a0) [0x7fe3af1cd0d0]
+[2] xsim.dir/barrelShifter_behav/xsimk() [0x402ec8]
+[3] /home/david/Apps/Vivado/2017.4/lib/lnx64.o/librdi_simulator_kernel.so(+0x25deea) [0x7fe3af2a9eea]
+[4] /home/david/Apps/Vivado/2017.4/lib/lnx64.o/librdi_simulator_kernel.so(ISIMK::Kernel::callProcessExecuteFunctions()+0x59) [0x7fe3af2a5f69]
+[5] xsim.dir/barrelShifter_behav/xsimk() [0x402fe7]
+[6] /home/david/Apps/Vivado/2017.4/lib/lnx64.o/librdi_simulator_kernel.so(ISIMK::Kernel::initializeSimulation()+0x83) [0x7fe3af2a61e3]
+[7] /home/david/Apps/Vivado/2017.4/lib/lnx64.o/librdi_simulator_kernel.so(ISIMK::GDBMIHost::runSimulationLoop()+0x11f) [0x7fe3af29d17f]
+[8] /home/david/Apps/Vivado/2017.4/lib/lnx64.o/Default/libstdc++.so.6(+0xb8cbf) [0x7fe3adea9cbf]
+[9] /lib/x86_64-linux-gnu/libpthread.so.0(+0x76ba) [0x7fe3ae7cf6ba]
+[10] /lib/x86_64-linux-gnu/libc.so.6(clone+0x6d) [0x7fe3aeaec41d]
+Done

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:54:30 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Feb 28 17:30:36 2018
+# Process ID: 6906
+# Current directory: /home/david/project_1/project_1.runs/synth_1
+# Command line: vivado -log barrelShifter.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source barrelShifter.tcl
+# Log file: /home/david/project_1/project_1.runs/synth_1/barrelShifter.vds
+# Journal file: /home/david/project_1/project_1.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source barrelShifter.tcl -notrace
