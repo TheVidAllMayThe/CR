@@ -120,3 +120,7 @@ INFO: [VRFC 10-163] Analyzing VHDL file "/home/david/Documents/CR/xarez/multicyc
 INFO: [VRFC 10-307] analyzing entity TopThatLevel
 INFO: [VRFC 10-163] Analyzing VHDL file "/home/david/Documents/CR/xarez/multicycle_mips/multicycle_mips.srcs/sources_1/new/TestBench.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity TestBench
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/david/Documents/CR/xarez/multicycle_mips/multicycle_mips.srcs/sources_1/imports/Downloads/TopThatLevel.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TopThatLevel
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/david/Documents/CR/xarez/multicycle_mips/multicycle_mips.srcs/sources_1/new/TestBench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TestBench

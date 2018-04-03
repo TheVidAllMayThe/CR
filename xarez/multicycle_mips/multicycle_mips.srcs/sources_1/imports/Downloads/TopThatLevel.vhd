@@ -249,8 +249,8 @@ begin
                           PCSource    => s_PCSource,
                           PCWrite     => s_PCWrite,
                           PCWriteCond => s_PCWriteCond,
-                          PC4         => s_PC4,
-                          BTA         => s_BTA,
+                          PC4         => s_result,
+                          BTA         => s_ALUOut,
                           jAddr       => s_jAddr,
                           pc          => s_pc);       
     

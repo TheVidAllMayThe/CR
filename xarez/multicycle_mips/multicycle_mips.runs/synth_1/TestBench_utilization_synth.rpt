@@ -1,7 +1,7 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2017.4 (lin64) Build 2086221 Fri Dec 15 20:54:30 MST 2017
-| Date         : Tue Apr  3 15:14:36 2018
+| Date         : Tue Apr  3 15:41:02 2018
 | Host         : david-Lenovo-U31-70 running 64-bit elementary OS 0.4.1 Loki
 | Command      : report_utilization -file TestBench_utilization_synth.rpt -pb TestBench_utilization_synth.pb
 | Design       : TestBench
