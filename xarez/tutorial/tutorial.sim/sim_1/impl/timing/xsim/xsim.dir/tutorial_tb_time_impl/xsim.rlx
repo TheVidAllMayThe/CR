@@ -1,0 +1,12 @@
+
+{ 
+    crc :  8564993476114806847  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto cc507f4a34dc492f9f2ff098daad374d --incr --debug typical --relax --mt 8 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot tutorial_tb_time_impl -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.tutorial_tb xil_defaultlib.glbl" , 
+    buildDate : "Dec 15 2017" , 
+    buildTime : "20:57:24" , 
+    linkCmd : "/usr/bin/gcc -Wa,-W  -O -fPIC  -m64  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/tutorial_tb_time_impl/xsimk\"   \"xsim.dir/tutorial_tb_time_impl/obj/xsim_0.lnx64.o\" \"xsim.dir/tutorial_tb_time_impl/obj/xsim_1.lnx64.o\" \"/home/xarez/Xilinx/Vivado/2017.4/lib/lnx64.o/librdi_simulator_kernel.so\" \"/home/xarez/Xilinx/Vivado/2017.4/lib/lnx64.o/librdi_simbridge_kernel.so\"" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

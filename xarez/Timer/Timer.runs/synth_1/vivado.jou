@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:54:30 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Feb 27 21:37:19 2018
+# Process ID: 1611
+# Current directory: /home/xarez/Documents/CR/Timer/Timer.runs/synth_1
+# Command line: vivado -log TimerDemo.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TimerDemo.tcl
+# Log file: /home/xarez/Documents/CR/Timer/Timer.runs/synth_1/TimerDemo.vds
+# Journal file: /home/xarez/Documents/CR/Timer/Timer.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source TimerDemo.tcl -notrace
