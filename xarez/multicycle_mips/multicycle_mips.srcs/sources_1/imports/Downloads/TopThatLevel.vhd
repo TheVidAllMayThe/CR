@@ -66,9 +66,9 @@ architecture MesmoTOP of TopThatLevel is
         );
     end component;
     
-    constant s_ADDR_BUS_SIZE : positive := 7;
+    constant s_ADDR_BUS_SIZE : positive := 6;
     constant s_DATA_BUS_SIZE : positive := 32;
-    signal s_address : std_logic_vector(s_ADDR_BUS_SIZE-1 downto 0);
+    signal s_address : std_logic_vector(31 downto 0);
     signal s_writeData : std_logic_vector(s_DATA_BUS_SIZE-1 downto 0);
     signal s_readData : std_logic_vector(s_DATA_BUS_SIZE-1 downto 0);
     
@@ -261,7 +261,7 @@ begin
                          enable    => s_memEnable,     
                          readEn    => s_MemRead,    
                          writeEn   => s_MemWrite,   
-                         address   => s_address,
+                         address   => s_address(s_ADDR_BUS_SIZE+1 downto 2),
                          writeData => s_writeData,
                          readData  => s_readData); 
     
@@ -277,13 +277,13 @@ begin
                         readData2   => s_readData2); 
     
     M1 : Mux2Nto1 generic map(
-                        N => s_ADDR_BUS_SIZE
+                        N => 32
                         )
                         
                   port map(
                         sel => s_Iord,
-                        a   => s_pc(s_ADDR_BUS_SIZE-1 downto 0),
-                        b   => s_ALUout(s_ADDR_BUS_SIZE-1 downto 0),
+                        a   => s_pc,
+                        b   => s_ALUout,
                         z   => s_address
                         );
     
