@@ -4,10 +4,11 @@ use ieee.numeric_std.ALL;
 
 entity RAM is
     generic( 
-            ADDR_BUS_SIZE : positive := 7;
+            ADDR_BUS_SIZE : positive := 6;
             DATA_BUS_SIZE : positive := 32);
     port(
         clk : in std_logic;
+        enable : in std_logic;
         readEn : in std_logic;
         writeEn : in std_logic;
         address : in std_logic_vector(ADDR_BUS_SIZE-1 downto 0);
@@ -59,7 +60,7 @@ begin
     process(clk)
     begin
     if(rising_edge(clk)) then
-        if(writeEn = '1') then
+        if(enable = '1' and writeEn = '1') then
             s_memory(to_integer(unsigned(address))) <= writeData;
         end if;
     end if;
