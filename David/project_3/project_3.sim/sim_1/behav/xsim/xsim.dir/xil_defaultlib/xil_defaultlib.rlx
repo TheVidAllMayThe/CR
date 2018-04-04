@@ -1,0 +1,10 @@
+0.6
+2017.4
+Dec 15 2017
+20:57:24
+/home/david/Documents/CR/David/project_3/project_3.srcs/sim_1/new/TestBench.vhd,1522861456,vhdl,,,,testbench,,,,,,,,
+/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/imports/Downloads/ControlUnit.vhd,1522861456,vhdl,/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/new/Timer.vhd,,,controlunit,,,,,,,,
+/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/imports/general_srcs/PulseGenerator.vhd,1522853448,vhdl,/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/new/Timer.vhd,,,pulsegenerator,,,,,,,,
+/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/new/Timer.vhd,1522861171,vhdl,/home/david/Documents/CR/David/project_3/project_3.srcs/sim_1/new/TestBench.vhd,,,timer,,,,,,,,
+/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/new/counter0.vhd,1522860313,vhdl,/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/new/Timer.vhd,,,counter0,,,,,,,,
+/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/new/debouncer.vhd,1522857282,vhdl,/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/new/Timer.vhd,,,debounce,,,,,,,,

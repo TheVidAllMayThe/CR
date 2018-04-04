@@ -1,0 +1,58 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/imports/Downloads/ControlUnit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ControlUnit
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/imports/general_srcs/PulseGenerator.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity PulseGenerator
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/new/debouncer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity debounce
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/new/Timer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Timer
+ERROR: [VRFC 10-149] 'counter0' is not compiled in library xil_defaultlib [/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/new/Timer.vhd:33]
+ERROR: [VRFC 10-149] 'counter0' is not compiled in library xil_defaultlib [/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/new/Timer.vhd:43]
+ERROR: [VRFC 10-149] 'counter0' is not compiled in library xil_defaultlib [/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/new/Timer.vhd:53]
+ERROR: [VRFC 10-149] 'counter0' is not compiled in library xil_defaultlib [/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/new/Timer.vhd:63]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/new/Timer.vhd:16]
+INFO: [VRFC 10-240] VHDL file /home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/new/Timer.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/imports/Downloads/ControlUnit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ControlUnit
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/imports/general_srcs/PulseGenerator.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity PulseGenerator
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/new/debouncer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity debounce
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/new/Timer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Timer
+ERROR: [VRFC 10-149] 'counter0' is not compiled in library xil_defaultlib [/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/new/Timer.vhd:33]
+ERROR: [VRFC 10-149] 'counter0' is not compiled in library xil_defaultlib [/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/new/Timer.vhd:43]
+ERROR: [VRFC 10-149] 'counter0' is not compiled in library xil_defaultlib [/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/new/Timer.vhd:53]
+ERROR: [VRFC 10-149] 'counter0' is not compiled in library xil_defaultlib [/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/new/Timer.vhd:63]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/new/Timer.vhd:16]
+INFO: [VRFC 10-240] VHDL file /home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/new/Timer.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/imports/Downloads/ControlUnit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ControlUnit
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/imports/general_srcs/PulseGenerator.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity PulseGenerator
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/new/counter0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity counter0
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/new/debouncer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity debounce
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/new/Timer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Timer
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/david/Documents/CR/David/project_3/project_3.srcs/sim_1/new/TestBench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TestBench
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/david/Documents/CR/David/project_3/project_3.srcs/sim_1/new/TestBench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TestBench
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/david/Documents/CR/David/project_3/project_3.srcs/sim_1/new/TestBench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TestBench
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/new/Timer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Timer
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/david/Documents/CR/David/project_3/project_3.srcs/sim_1/new/TestBench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TestBench
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/david/Documents/CR/David/project_3/project_3.srcs/sim_1/new/TestBench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TestBench
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/imports/Downloads/ControlUnit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ControlUnit
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/new/Timer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Timer
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/david/Documents/CR/David/project_3/project_3.srcs/sim_1/new/TestBench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TestBench
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/david/Documents/CR/David/project_3/project_3.srcs/sim_1/new/TestBench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TestBench

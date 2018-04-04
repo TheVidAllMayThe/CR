@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:54:30 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Apr  4 19:53:51 2018
+# Process ID: 28572
+# Current directory: /home/david/Documents/CR/David/project_3/project_3.runs/impl_1
+# Command line: vivado -log Timer.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Timer.tcl -notrace
+# Log file: /home/david/Documents/CR/David/project_3/project_3.runs/impl_1/Timer.vdi
+# Journal file: /home/david/Documents/CR/David/project_3/project_3.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source Timer.tcl -notrace
