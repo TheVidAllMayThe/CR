@@ -22,40 +22,24 @@ architecture Behavioral of RAM is
     
     type TMemory is array(0 to NUM_WORDS - 1) of TData;
     
-    -- opcodes:
-    --lw     : 1000 11
-    --sw     : 1010 11
-    --addi   : 0010 00
-    --beq    : 0001 00
-    
-    -- Rtype : 0000 00,
-    -- funct:
-    --  and  : 1000 00
-    --  sub  : 1000 10
-    --  and  : 1001 00
-    --  or   : 1001 01
-    --  slt  : 1010 10  
-    
-    -- initialize to testing routine
-    -- size: 96 bytes
     signal s_memory : TMemory := (
-        
         X"8c010000", -- lw $1, 0($0)
-        X"20220001", -- addi $2, $1, 1
-        X"20230003", -- addi $3, $1, 3
+        X"20020001", -- addi $2, $0, 1
+        X"20030003", -- addi $3, $0, 3
         X"00622022", -- sub $4, $3, $2
         X"00432824", -- and $5, $2, $3
         X"00443025", -- or $6, $2, $4
         X"0062382a", -- slt $7, $3, $2
         X"0043382a", -- slt $7, $2, $3
-        X"ac060032", -- sw $6, 50($0)
-        X"1062fff9", -- beq $3, $2, 12
+        X"ac06003c", -- sw $6, 60($0)
+        X"10620002", -- beq $3, $2, 2
         X"20420002", -- addi $2, $2, 2
         X"08000009", -- j 36
+        X"70684021", -- clo $8, $3
+        X"70694820", -- clz $9, $3
         others => (others => '0')
         );
-    
-    
+     
 begin
     process(clk)
     begin

@@ -46,13 +46,12 @@ begin
         NS <= CS;
         case CS is
             when E0 =>
-                MemRead <= '1'; PCWrite <= '1'; IRWrite <= '1'; ALUSelB <= "01"; IorD <= '0'; PCSource <= "00"; ALUOp <= "00";
+                MemRead <= '1'; PCWrite <= '1'; IRWrite <= '1'; ALUSelA <= '0'; ALUSelB <= "01"; IorD <= '0'; PCSource <= "00"; ALUOp <= "00";
                 NS <= E1;
             when E1 =>
                 ALUSelA <= '0'; ALUSelB <= "11"; ALUOp <= "00";
                 if(OpCode = "000000") then NS <= E6; -- R-Type instructions
-                elsif(OpCode = "100011" or OpCode = "101011" or
-                    OpCode = "001000") then -- LW, SW, ADDI
+                elsif(OpCode = "100011" or OpCode = "101011" or OpCode = "001000") then -- LW, SW, ADDI
                     NS <= E2;
                 elsif(OpCode = "000100") then NS <= E9;-- BEQ
                 elsif(OpCode = "000010") then NS <= E10;-- J
@@ -60,7 +59,7 @@ begin
                 end if;
             when E2 =>
                 ALUSelA <= '1'; ALUSelB <= "10"; ALUOp <= "00";
-                if(OpCode = "0010000") then
+                if(OpCode = "001000") then
                     NS <= E8;
                 elsif(OpCode = "100011") then
                     NS <= E3;
@@ -76,7 +75,7 @@ begin
             when E5 =>
                 MemWrite <= '1'; IorD <= '1';
                 NS <= E0;
-            when E6 => -- R-Type instructions
+            when E6 => -- R-Type 1instructions
                 ALUSelA <= '1'; ALUSelB <= "00"; ALUop <= "10";
                 NS <= E7;
             when E7 => -- R-Type instructions

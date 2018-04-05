@@ -6,7 +6,6 @@ vhdl xil_defaultlib  \
 "../../../../multicycle_mips.srcs/sources_1/new/DP_Memory.vhd" \
 "../../../../multicycle_mips.srcs/sources_1/new/InstrSplitter.vhd" \
 "../../../../multicycle_mips.srcs/sources_1/new/LeftShifter2.vhd" \
-"../../../../multicycle_mips.srcs/sources_1/imports/Downloads/Mux3to1.vhd" \
 "../../../../multicycle_mips.srcs/sources_1/imports/Downloads/Mux4to1.vhd" \
 "../../../../multicycle_mips.srcs/sources_1/imports/Downloads/MuxNto1.vhd" \
 "../../../../multicycle_mips.srcs/sources_1/new/NBitsRegister.vhd" \

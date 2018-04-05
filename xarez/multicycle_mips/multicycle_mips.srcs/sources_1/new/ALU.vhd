@@ -64,6 +64,7 @@ begin
     variable break: boolean;
     begin
         clo := 32;
+        break := false;
         for i in 31 to 0 loop
             if(break = false) then
                 if(a(i) = '0') then
@@ -80,6 +81,7 @@ begin
     variable break: boolean;
     begin
         clz := 32;
+        break := false;
         for i in 31 to 0 loop
             if(break = false) then
                 if(a(i) = '1') then

@@ -17,9 +17,9 @@ begin
     clock_proc: process
     begin
         s_clk <= '1';
-        wait for 10ns;
+        wait for 50ns;
         s_clk <= '0';
-        wait for 10ns;
+        wait for 50ns;
     end process;
     
     stim_proc: process
@@ -27,6 +27,6 @@ begin
         s_reset <= '1';
         wait for 25ns;
          s_reset <= '0';
-        wait for 1000ns;
+        wait for 10000ns;
     end process;
 end Stimulus;
