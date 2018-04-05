@@ -1,0 +1,383 @@
+
+*** Running vivado
+    with args -log Timer.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Timer.tcl
+
+
+****** Vivado v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:54:30 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source Timer.tcl -notrace
+Command: synth_design -top Timer -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 22060 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1267.398 ; gain = 68.992 ; free physical = 3394 ; free virtual = 13429
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Timer' [/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/new/Timer.vhd:17]
+INFO: [Synth 8-638] synthesizing module 'ControlUnit' [/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/imports/Downloads/ControlUnit.vhd:15]
+WARNING: [Synth 8-614] signal 's_state' is read in the process but is not in the sensitivity list [/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/imports/Downloads/ControlUnit.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'ControlUnit' (1#1) [/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/imports/Downloads/ControlUnit.vhd:15]
+INFO: [Synth 8-638] synthesizing module 'PulseGenerator' [/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/imports/general_srcs/PulseGenerator.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'PulseGenerator' (2#1) [/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/imports/general_srcs/PulseGenerator.vhd:12]
+INFO: [Synth 8-638] synthesizing module 'counter0' [/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/new/counter0.vhd:16]
+	Parameter N bound to: 4'b1001 
+INFO: [Synth 8-256] done synthesizing module 'counter0' (3#1) [/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/new/counter0.vhd:16]
+INFO: [Synth 8-638] synthesizing module 'counter0__parameterized0' [/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/new/counter0.vhd:16]
+	Parameter N bound to: 4'b0101 
+INFO: [Synth 8-256] done synthesizing module 'counter0__parameterized0' (3#1) [/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/new/counter0.vhd:16]
+INFO: [Synth 8-638] synthesizing module 'debounce' [/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/new/debouncer.vhd:14]
+	Parameter counter_size bound to: 19 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'debounce' (4#1) [/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/new/debouncer.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'Timer' (5#1) [/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/new/Timer.vhd:17]
+WARNING: [Synth 8-3331] design Timer has unconnected port sw[15]
+WARNING: [Synth 8-3331] design Timer has unconnected port sw[14]
+WARNING: [Synth 8-3331] design Timer has unconnected port sw[13]
+WARNING: [Synth 8-3331] design Timer has unconnected port sw[12]
+WARNING: [Synth 8-3331] design Timer has unconnected port sw[11]
+WARNING: [Synth 8-3331] design Timer has unconnected port sw[10]
+WARNING: [Synth 8-3331] design Timer has unconnected port sw[9]
+WARNING: [Synth 8-3331] design Timer has unconnected port sw[8]
+WARNING: [Synth 8-3331] design Timer has unconnected port sw[7]
+WARNING: [Synth 8-3331] design Timer has unconnected port sw[6]
+WARNING: [Synth 8-3331] design Timer has unconnected port sw[5]
+WARNING: [Synth 8-3331] design Timer has unconnected port sw[4]
+WARNING: [Synth 8-3331] design Timer has unconnected port sw[3]
+WARNING: [Synth 8-3331] design Timer has unconnected port sw[2]
+WARNING: [Synth 8-3331] design Timer has unconnected port sw[1]
+WARNING: [Synth 8-3331] design Timer has unconnected port sw[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1308.930 ; gain = 110.523 ; free physical = 3408 ; free virtual = 13443
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1308.930 ; gain = 110.523 ; free physical = 3407 ; free virtual = 13442
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/david/Documents/CR/David/project_3/project_3.srcs/constrs_1/imports/david/Nexys4_Master.xdc]
+Finished Parsing XDC File [/home/david/Documents/CR/David/project_3/project_3.srcs/constrs_1/imports/david/Nexys4_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/david/Documents/CR/David/project_3/project_3.srcs/constrs_1/imports/david/Nexys4_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Timer_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Timer_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1655.301 ; gain = 0.000 ; free physical = 3142 ; free virtual = 13177
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:29 ; elapsed = 00:00:40 . Memory (MB): peak = 1655.301 ; gain = 456.895 ; free physical = 3219 ; free virtual = 13255
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:29 ; elapsed = 00:00:40 . Memory (MB): peak = 1655.301 ; gain = 456.895 ; free physical = 3219 ; free virtual = 13255
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:40 . Memory (MB): peak = 1655.301 ; gain = 456.895 ; free physical = 3221 ; free virtual = 13256
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "enable" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enable" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enable" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "s_pulseOut" won't be mapped to RAM because address size (27) is larger than maximum supported(25)
+WARNING: [Synth 8-6014] Unused sequential element s_counter_reg was removed.  [/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/imports/general_srcs/PulseGenerator.vhd:21]
+INFO: [Synth 8-5544] ROM "terminalCount" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "terminalCount" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "terminalCount" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "terminalCount" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element counter_out_reg was removed.  [/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/new/debouncer.vhd:28]
+WARNING: [Synth 8-327] inferring latch for variable 'enable_reg' [/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/imports/Downloads/ControlUnit.vhd:32]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:29 ; elapsed = 00:00:40 . Memory (MB): peak = 1655.301 ; gain = 456.895 ; free physical = 3212 ; free virtual = 13247
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 4     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	                4 Bit    Registers := 4     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 23    
+	   3 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module ControlUnit 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 10    
+	   3 Input      1 Bit        Muxes := 1     
+Module PulseGenerator 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module counter0 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module counter0__parameterized0 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module debounce 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "controlUnit/enable" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "controlUnit/enable" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "pulseGen/s_pulseOut" won't be mapped to RAM because address size (27) is larger than maximum supported(25)
+WARNING: [Synth 8-6014] Unused sequential element pulseGen/s_counter_reg was removed.  [/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/imports/general_srcs/PulseGenerator.vhd:21]
+WARNING: [Synth 8-6014] Unused sequential element startStop/counter_out_reg was removed.  [/home/david/Documents/CR/David/project_3/project_3.srcs/sources_1/new/debouncer.vhd:28]
+WARNING: [Synth 8-3331] design Timer has unconnected port sw[15]
+WARNING: [Synth 8-3331] design Timer has unconnected port sw[14]
+WARNING: [Synth 8-3331] design Timer has unconnected port sw[13]
+WARNING: [Synth 8-3331] design Timer has unconnected port sw[12]
+WARNING: [Synth 8-3331] design Timer has unconnected port sw[11]
+WARNING: [Synth 8-3331] design Timer has unconnected port sw[10]
+WARNING: [Synth 8-3331] design Timer has unconnected port sw[9]
+WARNING: [Synth 8-3331] design Timer has unconnected port sw[8]
+WARNING: [Synth 8-3331] design Timer has unconnected port sw[7]
+WARNING: [Synth 8-3331] design Timer has unconnected port sw[6]
+WARNING: [Synth 8-3331] design Timer has unconnected port sw[5]
+WARNING: [Synth 8-3331] design Timer has unconnected port sw[4]
+WARNING: [Synth 8-3331] design Timer has unconnected port sw[3]
+WARNING: [Synth 8-3331] design Timer has unconnected port sw[2]
+WARNING: [Synth 8-3331] design Timer has unconnected port sw[1]
+WARNING: [Synth 8-3331] design Timer has unconnected port sw[0]
+WARNING: [Synth 8-3332] Sequential element (counter3/s_count_reg[0]) is unused and will be removed from module Timer.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:41 . Memory (MB): peak = 1655.301 ; gain = 456.895 ; free physical = 3203 ; free virtual = 13238
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:37 ; elapsed = 00:00:50 . Memory (MB): peak = 1655.301 ; gain = 456.895 ; free physical = 3078 ; free virtual = 13113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:37 ; elapsed = 00:00:51 . Memory (MB): peak = 1655.301 ; gain = 456.895 ; free physical = 3077 ; free virtual = 13113
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:37 ; elapsed = 00:00:51 . Memory (MB): peak = 1655.301 ; gain = 456.895 ; free physical = 3077 ; free virtual = 13112
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:38 ; elapsed = 00:00:51 . Memory (MB): peak = 1655.301 ; gain = 456.895 ; free physical = 3077 ; free virtual = 13112
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:38 ; elapsed = 00:00:51 . Memory (MB): peak = 1655.301 ; gain = 456.895 ; free physical = 3077 ; free virtual = 13112
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:38 ; elapsed = 00:00:51 . Memory (MB): peak = 1655.301 ; gain = 456.895 ; free physical = 3077 ; free virtual = 13112
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:38 ; elapsed = 00:00:51 . Memory (MB): peak = 1655.301 ; gain = 456.895 ; free physical = 3077 ; free virtual = 13112
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:38 ; elapsed = 00:00:51 . Memory (MB): peak = 1655.301 ; gain = 456.895 ; free physical = 3077 ; free virtual = 13112
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:38 ; elapsed = 00:00:51 . Memory (MB): peak = 1655.301 ; gain = 456.895 ; free physical = 3077 ; free virtual = 13112
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    12|
+|3     |LUT1   |     7|
+|4     |LUT2   |     8|
+|5     |LUT3   |     1|
+|6     |LUT4   |    14|
+|7     |LUT5   |     8|
+|8     |LUT6   |    14|
+|9     |FDCE   |     1|
+|10    |FDRE   |    64|
+|11    |FDSE   |     6|
+|12    |LD     |     2|
+|13    |IBUF   |     3|
+|14    |OBUF   |    16|
++------+-------+------+
+
+Report Instance Areas: 
++------+--------------+-------------------------+------+
+|      |Instance      |Module                   |Cells |
++------+--------------+-------------------------+------+
+|1     |top           |                         |   157|
+|2     |  controlUnit |ControlUnit              |     6|
+|3     |  counter0    |counter0                 |    13|
+|4     |  counter1    |counter0_0               |    14|
+|5     |  counter2    |counter0_1               |    12|
+|6     |  counter3    |counter0__parameterized0 |     9|
+|7     |  pulseGen    |PulseGenerator           |    51|
+|8     |  startStop   |debounce                 |    32|
++------+--------------+-------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:38 ; elapsed = 00:00:51 . Memory (MB): peak = 1655.301 ; gain = 456.895 ; free physical = 3077 ; free virtual = 13112
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 22 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 1655.301 ; gain = 110.523 ; free physical = 3131 ; free virtual = 13166
+Synthesis Optimization Complete : Time (s): cpu = 00:00:38 ; elapsed = 00:00:52 . Memory (MB): peak = 1655.309 ; gain = 456.895 ; free physical = 3132 ; free virtual = 13168
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 17 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  LD => LDCE: 2 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+35 Infos, 39 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:41 ; elapsed = 00:00:54 . Memory (MB): peak = 1655.309 ; gain = 470.281 ; free physical = 3123 ; free virtual = 13158
+INFO: [Common 17-1381] The checkpoint '/home/david/Documents/CR/David/project_3/project_3.runs/synth_1/Timer.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Timer_utilization_synth.rpt -pb Timer_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.09 . Memory (MB): peak = 1679.312 ; gain = 0.000 ; free physical = 3123 ; free virtual = 13158
+INFO: [Common 17-206] Exiting Vivado at Wed Apr  4 23:03:43 2018...
