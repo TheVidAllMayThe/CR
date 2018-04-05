@@ -1,0 +1,337 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CPU
+ERROR: [VRFC 10-149] 'controlunit' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:66]
+ERROR: [VRFC 10-149] 'alucontrolunit' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:86]
+ERROR: [VRFC 10-149] 'pcupdate' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:93]
+ERROR: [VRFC 10-149] 'mux2to1' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:108]
+ERROR: [VRFC 10-149] 'ram' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:119]
+ERROR: [VRFC 10-149] 'registern' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:130]
+ERROR: [VRFC 10-149] 'registern' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:138]
+ERROR: [VRFC 10-149] 'instrsplitter' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:147]
+ERROR: [VRFC 10-149] 'signextend' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:160]
+ERROR: [VRFC 10-149] 'leftshifter2' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:166]
+ERROR: [VRFC 10-149] 'mux2to1' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:173]
+ERROR: [VRFC 10-149] 'mux2to1' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:182]
+ERROR: [VRFC 10-149] 'regfile' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:191]
+ERROR: [VRFC 10-149] 'registern' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:203]
+ERROR: [VRFC 10-149] 'registern' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:211]
+ERROR: [VRFC 10-149] 'mux2to1' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:220]
+ERROR: [VRFC 10-149] 'mux4to1' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:230]
+ERROR: [VRFC 10-149] 'alu' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:242]
+ERROR: [VRFC 10-149] 'registern' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:252]
+INFO: [#UNDEF] Sorry, too many errors..
+ERROR: [XSIM 43-4316] Can not find file: ../../../../mips.srcs/sources_1/new/TestBench.vhd
+ERROR: [XSIM 43-4316] Can not find file: ../../../../mips.srcs/sources_1/new/TestBench.vhd
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CPU
+ERROR: [VRFC 10-149] 'controlunit' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:66]
+ERROR: [VRFC 10-149] 'alucontrolunit' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:86]
+ERROR: [VRFC 10-149] 'pcupdate' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:93]
+ERROR: [VRFC 10-149] 'mux2to1' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:108]
+ERROR: [VRFC 10-149] 'ram' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:119]
+ERROR: [VRFC 10-149] 'registern' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:130]
+ERROR: [VRFC 10-149] 'registern' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:138]
+ERROR: [VRFC 10-149] 'instrsplitter' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:147]
+ERROR: [VRFC 10-149] 'signextend' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:160]
+ERROR: [VRFC 10-149] 'leftshifter2' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:166]
+ERROR: [VRFC 10-149] 'mux2to1' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:173]
+ERROR: [VRFC 10-149] 'mux2to1' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:182]
+ERROR: [VRFC 10-149] 'regfile' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:191]
+ERROR: [VRFC 10-149] 'registern' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:203]
+ERROR: [VRFC 10-149] 'registern' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:211]
+ERROR: [VRFC 10-149] 'mux2to1' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:220]
+ERROR: [VRFC 10-149] 'mux4to1' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:230]
+ERROR: [VRFC 10-149] 'alu' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:242]
+ERROR: [VRFC 10-149] 'registern' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:252]
+INFO: [#UNDEF] Sorry, too many errors..
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CPU
+ERROR: [VRFC 10-149] 'controlunit' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:66]
+ERROR: [VRFC 10-149] 'alucontrolunit' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:86]
+ERROR: [VRFC 10-149] 'pcupdate' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:93]
+ERROR: [VRFC 10-149] 'mux2to1' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:108]
+ERROR: [VRFC 10-149] 'ram' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:119]
+ERROR: [VRFC 10-149] 'registern' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:130]
+ERROR: [VRFC 10-149] 'registern' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:138]
+ERROR: [VRFC 10-149] 'instrsplitter' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:147]
+ERROR: [VRFC 10-149] 'signextend' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:160]
+ERROR: [VRFC 10-149] 'leftshifter2' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:166]
+ERROR: [VRFC 10-149] 'mux2to1' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:173]
+ERROR: [VRFC 10-149] 'mux2to1' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:182]
+ERROR: [VRFC 10-149] 'regfile' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:191]
+ERROR: [VRFC 10-149] 'registern' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:203]
+ERROR: [VRFC 10-149] 'registern' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:211]
+ERROR: [VRFC 10-149] 'mux2to1' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:220]
+ERROR: [VRFC 10-149] 'mux4to1' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:230]
+ERROR: [VRFC 10-149] 'alu' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:242]
+ERROR: [VRFC 10-149] 'registern' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:252]
+INFO: [#UNDEF] Sorry, too many errors..
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CPU
+ERROR: [VRFC 10-149] 'controlunit' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:66]
+ERROR: [VRFC 10-149] 'alucontrolunit' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:86]
+ERROR: [VRFC 10-149] 'pcupdate' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:93]
+ERROR: [VRFC 10-149] 'mux2to1' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:108]
+ERROR: [VRFC 10-149] 'ram' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:119]
+ERROR: [VRFC 10-149] 'registern' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:130]
+ERROR: [VRFC 10-149] 'registern' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:138]
+ERROR: [VRFC 10-149] 'instrsplitter' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:147]
+ERROR: [VRFC 10-149] 'signextend' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:160]
+ERROR: [VRFC 10-149] 'leftshifter2' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:166]
+ERROR: [VRFC 10-149] 'mux2to1' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:173]
+ERROR: [VRFC 10-149] 'mux2to1' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:182]
+ERROR: [VRFC 10-149] 'regfile' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:191]
+ERROR: [VRFC 10-149] 'registern' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:203]
+ERROR: [VRFC 10-149] 'registern' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:211]
+ERROR: [VRFC 10-149] 'mux2to1' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:220]
+ERROR: [VRFC 10-149] 'mux4to1' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:230]
+ERROR: [VRFC 10-149] 'alu' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:242]
+ERROR: [VRFC 10-149] 'registern' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:252]
+INFO: [#UNDEF] Sorry, too many errors..
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CPU
+ERROR: [VRFC 10-149] 'controlunit' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:66]
+ERROR: [VRFC 10-149] 'alucontrolunit' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:86]
+ERROR: [VRFC 10-149] 'pcupdate' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:93]
+ERROR: [VRFC 10-149] 'mux2to1' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:108]
+ERROR: [VRFC 10-149] 'ram' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:119]
+ERROR: [VRFC 10-149] 'registern' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:130]
+ERROR: [VRFC 10-149] 'registern' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:138]
+ERROR: [VRFC 10-149] 'instrsplitter' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:147]
+ERROR: [VRFC 10-149] 'signextend' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:160]
+ERROR: [VRFC 10-149] 'leftshifter2' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:166]
+ERROR: [VRFC 10-149] 'mux2to1' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:173]
+ERROR: [VRFC 10-149] 'mux2to1' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:182]
+ERROR: [VRFC 10-149] 'regfile' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:191]
+ERROR: [VRFC 10-149] 'registern' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:203]
+ERROR: [VRFC 10-149] 'registern' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:211]
+ERROR: [VRFC 10-149] 'mux2to1' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:220]
+ERROR: [VRFC 10-149] 'mux4to1' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:230]
+ERROR: [VRFC 10-149] 'alu' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:242]
+ERROR: [VRFC 10-149] 'registern' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:252]
+INFO: [#UNDEF] Sorry, too many errors..
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CPU
+ERROR: [VRFC 10-149] 'controlunit' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:66]
+ERROR: [VRFC 10-149] 'alucontrolunit' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:86]
+ERROR: [VRFC 10-149] 'pcupdate' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:93]
+ERROR: [VRFC 10-149] 'mux2to1' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:108]
+ERROR: [VRFC 10-149] 'ram' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:119]
+ERROR: [VRFC 10-149] 'registern' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:130]
+ERROR: [VRFC 10-149] 'registern' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:138]
+ERROR: [VRFC 10-149] 'instrsplitter' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:147]
+ERROR: [VRFC 10-149] 'signextend' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:160]
+ERROR: [VRFC 10-149] 'leftshifter2' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:166]
+ERROR: [VRFC 10-149] 'mux2to1' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:173]
+ERROR: [VRFC 10-149] 'mux2to1' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:182]
+ERROR: [VRFC 10-149] 'regfile' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:191]
+ERROR: [VRFC 10-149] 'registern' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:203]
+ERROR: [VRFC 10-149] 'registern' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:211]
+ERROR: [VRFC 10-149] 'mux2to1' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:220]
+ERROR: [VRFC 10-149] 'mux4to1' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:230]
+ERROR: [VRFC 10-149] 'alu' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:242]
+ERROR: [VRFC 10-149] 'registern' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:252]
+INFO: [#UNDEF] Sorry, too many errors..
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CPU
+ERROR: [VRFC 10-149] 'controlunit' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:66]
+ERROR: [VRFC 10-149] 'alucontrolunit' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:86]
+ERROR: [VRFC 10-149] 'pcupdate' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:93]
+ERROR: [VRFC 10-149] 'mux2to1' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:108]
+ERROR: [VRFC 10-149] 'ram' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:119]
+ERROR: [VRFC 10-149] 'registern' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:130]
+ERROR: [VRFC 10-149] 'registern' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:138]
+ERROR: [VRFC 10-149] 'instrsplitter' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:147]
+ERROR: [VRFC 10-149] 'signextend' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:160]
+ERROR: [VRFC 10-149] 'leftshifter2' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:166]
+ERROR: [VRFC 10-149] 'mux2to1' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:173]
+ERROR: [VRFC 10-149] 'mux2to1' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:182]
+ERROR: [VRFC 10-149] 'regfile' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:191]
+ERROR: [VRFC 10-149] 'registern' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:203]
+ERROR: [VRFC 10-149] 'registern' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:211]
+ERROR: [VRFC 10-149] 'mux2to1' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:220]
+ERROR: [VRFC 10-149] 'mux4to1' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:230]
+ERROR: [VRFC 10-149] 'alu' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:242]
+ERROR: [VRFC 10-149] 'registern' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:252]
+INFO: [#UNDEF] Sorry, too many errors..
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CPU
+ERROR: [VRFC 10-149] 'controlunit' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:66]
+ERROR: [VRFC 10-149] 'alucontrolunit' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:86]
+ERROR: [VRFC 10-149] 'pcupdate' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:93]
+ERROR: [VRFC 10-149] 'mux2to1' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:108]
+ERROR: [VRFC 10-149] 'ram' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:119]
+ERROR: [VRFC 10-149] 'registern' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:130]
+ERROR: [VRFC 10-149] 'registern' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:138]
+ERROR: [VRFC 10-149] 'instrsplitter' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:147]
+ERROR: [VRFC 10-149] 'signextend' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:160]
+ERROR: [VRFC 10-149] 'leftshifter2' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:166]
+ERROR: [VRFC 10-149] 'mux2to1' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:173]
+ERROR: [VRFC 10-149] 'mux2to1' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:182]
+ERROR: [VRFC 10-149] 'regfile' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:191]
+ERROR: [VRFC 10-149] 'registern' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:203]
+ERROR: [VRFC 10-149] 'registern' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:211]
+ERROR: [VRFC 10-149] 'mux2to1' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:220]
+ERROR: [VRFC 10-149] 'mux4to1' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:230]
+ERROR: [VRFC 10-149] 'alu' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:242]
+ERROR: [VRFC 10-149] 'registern' is not compiled in library xil_defaultlib [/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd:252]
+INFO: [#UNDEF] Sorry, too many errors..
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/ALUControlUnit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALUControlUnit
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/ControlUnit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ControlUnit
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/PCupdate.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity PCupdate
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/Mux2to1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux2to1
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/RAM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RAM
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/RegisterN.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegisterN
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/InstrSplitter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity InstrSplitter
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/SignExtend.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SignExtend
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/LeftShifter2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LeftShifter2
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/DP_Memory.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity DP_Memory
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/RegFile.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegFile
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/Mux4to1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux4to1
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CPU
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sim_1/new/Testbench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Testbench
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/RAM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RAM
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CPU
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sim_1/new/Testbench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Testbench
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CPU
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sim_1/new/Testbench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Testbench
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/RAM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RAM
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CPU
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sim_1/new/Testbench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Testbench
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/RAM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RAM
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CPU
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sim_1/new/Testbench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Testbench
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/ControlUnit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ControlUnit
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/PCupdate.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity PCupdate
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/RAM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RAM
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/InstrSplitter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity InstrSplitter
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CPU
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sim_1/new/Testbench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Testbench
+ERROR: [VRFC 10-2666] formal port datain has no actual or default value [/home/fabio/Code/mips/mips/mips.srcs/sim_1/new/Testbench.vhd:26]
+ERROR: [VRFC 10-1504] unit stimulus ignored due to previous errors [/home/fabio/Code/mips/mips/mips.srcs/sim_1/new/Testbench.vhd:7]
+INFO: [VRFC 10-240] VHDL file /home/fabio/Code/mips/mips/mips.srcs/sim_1/new/Testbench.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/ControlUnit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ControlUnit
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/PCupdate.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity PCupdate
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/RAM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RAM
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/InstrSplitter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity InstrSplitter
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CPU
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sim_1/new/Testbench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Testbench
+ERROR: [VRFC 10-2666] formal port datain has no actual or default value [/home/fabio/Code/mips/mips/mips.srcs/sim_1/new/Testbench.vhd:26]
+ERROR: [VRFC 10-1504] unit stimulus ignored due to previous errors [/home/fabio/Code/mips/mips/mips.srcs/sim_1/new/Testbench.vhd:7]
+INFO: [VRFC 10-240] VHDL file /home/fabio/Code/mips/mips/mips.srcs/sim_1/new/Testbench.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/ControlUnit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ControlUnit
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/PCupdate.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity PCupdate
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/RAM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RAM
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/InstrSplitter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity InstrSplitter
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CPU
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sim_1/new/Testbench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Testbench
+ERROR: [VRFC 10-2666] formal port datain has no actual or default value [/home/fabio/Code/mips/mips/mips.srcs/sim_1/new/Testbench.vhd:26]
+ERROR: [VRFC 10-1504] unit stimulus ignored due to previous errors [/home/fabio/Code/mips/mips/mips.srcs/sim_1/new/Testbench.vhd:7]
+INFO: [VRFC 10-240] VHDL file /home/fabio/Code/mips/mips/mips.srcs/sim_1/new/Testbench.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/ControlUnit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ControlUnit
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/PCupdate.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity PCupdate
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/RAM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RAM
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/InstrSplitter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity InstrSplitter
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CPU
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sim_1/new/Testbench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Testbench
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/ControlUnit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ControlUnit
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CPU
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sim_1/new/Testbench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Testbench
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/ControlUnit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ControlUnit
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CPU
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sim_1/new/Testbench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Testbench
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CPU
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sim_1/new/Testbench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Testbench
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sim_1/new/Testbench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Testbench
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sim_1/new/Testbench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Testbench
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/RAM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RAM
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CPU
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sim_1/new/Testbench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Testbench
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/RAM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RAM
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CPU
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sim_1/new/Testbench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Testbench
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/RAM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RAM
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CPU
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sim_1/new/Testbench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Testbench
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/RAM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RAM
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CPU
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sim_1/new/Testbench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Testbench
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/RAM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RAM
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sources_1/new/CPU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CPU
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/fabio/Code/mips/mips/mips.srcs/sim_1/new/Testbench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Testbench

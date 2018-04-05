@@ -1,0 +1,30 @@
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2017.4/bin/unwrapped/lnx64.o/xelab -wto 2e86cf07d88946bda753ee0828fba463 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot Testbench_behav xil_defaultlib.Testbench -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.ControlUnit [controlunit_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALUControlUnit [alucontrolunit_default]
+Compiling architecture behavioral of entity xil_defaultlib.PCupdate [pcupdate_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux2to1 [mux2to1_default]
+Compiling architecture behavioral of entity xil_defaultlib.RAM [ram_default]
+Compiling architecture behavioral of entity xil_defaultlib.RegisterN [registern_default]
+Compiling architecture behavioral of entity xil_defaultlib.InstrSplitter [instrsplitter_default]
+Compiling architecture behavioral of entity xil_defaultlib.SignExtend [signextend_default]
+Compiling architecture behavioral of entity xil_defaultlib.LeftShifter2 [leftshifter2_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux2to1 [\Mux2to1(n=5)\]
+Compiling architecture behavioral of entity xil_defaultlib.DP_Memory [dp_memory_default]
+Compiling architecture structural of entity xil_defaultlib.RegFile [regfile_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux4to1 [mux4to1_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture structural of entity xil_defaultlib.CPU [cpu_default]
+Compiling architecture stimulus of entity xil_defaultlib.testbench
+Built simulation snapshot Testbench_behav
