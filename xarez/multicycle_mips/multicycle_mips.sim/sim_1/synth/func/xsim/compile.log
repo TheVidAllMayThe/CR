@@ -1,4 +1,0 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/david/Documents/CR/xarez/multicycle_mips/multicycle_mips.sim/sim_1/synth/func/xsim/TestBench_func_synth.vhd" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity ControlUnit
-INFO: [VRFC 10-307] analyzing entity TopThatLevel
-INFO: [VRFC 10-307] analyzing entity TestBench
