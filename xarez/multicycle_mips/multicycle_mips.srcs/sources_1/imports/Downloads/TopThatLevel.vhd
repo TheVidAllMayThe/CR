@@ -4,14 +4,18 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
 entity TopThatLevel is
-    Port (reset, clock: in std_logic);
+    port(
+        btnCpuReset: in std_logic;
+        clk: in std_logic;
+        sw: in std_logic_vector(15 downto 0);
+        led: out std_logic_vector(15 downto 0)
+    );
 end TopThatLevel;
 
 architecture MesmoTOP of TopThatLevel is
     --Global
     constant s_ADDR_BUS_SIZE : positive := 6;
     constant s_DATA_BUS_SIZE : positive := 32;
-    signal s_Clock :  std_logic;
     signal s_Reset :  std_logic;
     
     --Control Unit
@@ -42,6 +46,12 @@ architecture MesmoTOP of TopThatLevel is
     signal s_address : std_logic_vector(31 downto 0);
     signal s_writeData : std_logic_vector(s_DATA_BUS_SIZE-1 downto 0);
     signal s_readData : std_logic_vector(s_DATA_BUS_SIZE-1 downto 0);
+    
+    -- IO
+    signal s_ioEnable : std_logic;
+    signal s_ioData: std_logic_vector(s_DATA_BUS_SIZE-1 downto 0);
+    signal s_IORegister_enable: std_logic;
+    signal s_MemoryOrIOData: std_logic_vector(s_DATA_BUS_SIZE-1 downto 0);
     
     -- Registers
     signal s_writeEnable: std_logic;
@@ -80,8 +90,15 @@ architecture MesmoTOP of TopThatLevel is
     signal s_imm_ext_ls: std_logic_vector(31 downto 0);
     
 begin
-    U1: entity work.ControlUnit port map(Clock       => clock,
-                             Reset       => reset,
+    resetModule: entity work.ResetModule
+        port map(
+            sysClk => clk,
+            resetIn => btnCpuReset,
+            resetOut => s_Reset
+        );
+        
+    U1: entity work.ControlUnit port map(Clock       => clk,
+                             Reset       => s_Reset,
                              OpCode      => s_OpCode,
                              PCWrite     => s_PCWrite,
                              IRWrite     => s_IRWrite,
@@ -98,8 +115,8 @@ begin
                              ALUop       => s_ALUop);
                         
                              
-    PC: entity work.PCUpdate port map(clk         => clock,
-                          reset       => reset,
+    PC: entity work.PCUpdate port map(clk         => clk,
+                          reset       => s_Reset,
                           zero        => s_zero,
                           PCSource    => s_PCSource,
                           PCWrite     => s_PCWrite,
@@ -111,8 +128,9 @@ begin
     
     
     s_memEnable <= '1' when (s_address(31 downto 8) = X"000000") else '0';
+    s_ioEnable <= '1' when (s_address(31 downto 8) = X"000001") else '0';
     
-    Memory: entity work.RAM port map(clk       => clock,
+    Memory: entity work.RAM port map(clk       => clk,
                          enable    => s_memEnable,     
                          readEn    => s_MemRead,    
                          writeEn   => s_MemWrite,   
@@ -120,9 +138,34 @@ begin
                          writeData => s_writeData,
                          readData  => s_readData);
     
+    s_IORegister_enable <= s_ioEnable and s_memWrite;
+    
+    IORegister : entity work.NBitsRegister 
+                                        generic map(
+                                            N => 16
+                                        )
+                                        port map(
+                                             input => s_writeData(15 downto 0),
+                                             output => led(15 downto 0),
+                                             enable => s_IORegister_enable,
+                                             clk => clk
+                                        );
+    
+    s_IOData <= "0000000000000000" & sw;
+    
+    M7 : entity work.Mux2Nto1 generic map(
+                                            N => 32
+                                         )
+                                                                
+                                          port map(
+                                                sel => s_IOEnable,
+                                                a   => s_readData,
+                                                b   => s_IOData,
+                                                z   => s_MemoryOrIOData
+                                          );
     
     Registers: entity work.RegFile port map(
-                        clk         => clock,
+                        clk         => clk,
                         writeEnable => s_RegWrite,
                         writeReg    => s_writeReg,   
                         writeData   => s_writeData_reg,  
@@ -174,16 +217,16 @@ begin
                             input => s_readData,
                             output => s_instruction,
                             enable => s_IRWrite,
-                            clk => clock
+                            clk => clk
                             );
     
  
     
     DataRegister: entity work.NBitsRegister port map(
-                        input => s_readData,
+                        input => s_MemoryOrIOData,
                         output => s_dataOut,
                         enable => '1',
-                        clk => clock
+                        clk => clk
                         );
     
    M3 : entity work.Mux2Nto1 generic map(
@@ -201,14 +244,14 @@ begin
                     input => s_readData1,
                     output => s_readData1out,
                     enable => '1',
-                    clk => clock
+                    clk => clk
                     );
     
     RegB : entity work.NBitsRegister port map(
                     input => s_readData2,
                     output => s_writeData,
                     enable => '1',
-                    clk => clock
+                    clk => clk
                     );
                         
     
@@ -259,7 +302,7 @@ begin
                     input => s_result,
                     output => s_ALUout,
                     enable => '1',
-                    clk => clock
+                    clk => clk
                     );
     
 end MesmoTOP;

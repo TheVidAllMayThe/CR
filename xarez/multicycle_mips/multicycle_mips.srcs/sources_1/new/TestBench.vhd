@@ -6,12 +6,15 @@ end TestBench;
 
 architecture Stimulus of TestBench is
     signal s_reset, s_clk: std_logic := '0';
+    signal s_sw, s_led: std_logic_vector(15 downto 0);
 
 begin
     uut: entity work.TopThatLevel(MesmoTOP)
         port map(
-            reset => s_reset,
-            clock => s_clk     
+            btnCpuReset => s_reset,
+            clk => s_clk,
+            sw => s_sw,
+            led => s_led  
         );
     
     clock_proc: process
@@ -25,6 +28,7 @@ begin
     stim_proc: process
     begin
         s_reset <= '1';
+        s_sw <= "0000000000000011";
         wait for 25ns;
          s_reset <= '0';
         wait for 10000ns;
